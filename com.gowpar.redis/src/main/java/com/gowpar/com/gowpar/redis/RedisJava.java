@@ -12,6 +12,8 @@ public class RedisJava {
 		
 		// Check whether server is running or not
 		System.out.println("Server is running: " + jedis.ping());
+		
+		jedis.close();
 	}
 
 }
